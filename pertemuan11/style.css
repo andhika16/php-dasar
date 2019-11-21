@@ -1,0 +1,40 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+body {
+
+    background: url("img/bg.jpg");
+   
+
+}
+
+.wrapper {
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width : 100%;
+    padding:  0 20px;
+
+}
+
+.contact-form {
+
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0,0,10px rgba(0,0,0,0.13);
+    display: flex;
+    
+
+}
