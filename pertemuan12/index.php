@@ -67,18 +67,18 @@ if (isset($_POST["cari"]) ){
 </tr>
 
 <?php $i = 1;  ?>
-    <?php foreach($mhs as $row) : ?>
+    <?php foreach($mahasiswa as $mhs) : ?>
         <tr>
             <td><?= $i; ?></td>
             <td>
                 <a href="ubah.php?id=<?= $row["id"]; ?>">ubah</a> |
                 <a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('yakin akan di hapus');">hapus</a>
             </td>
-            <td><?= $row["nama"]; ?></td>
-            <td><?= $row["nrp"]; ?></td>
-            <td><?= $row["email"] ;?></td>
-            <td><?= $row["jurusan"]; ?></td>
-            <td><img src="img/<?= $row["gambar"]; ?>" width="50" alt=""></td>
+            <td><?= $mhs["nama"]; ?></td>
+            <td><?= $mhs["nrp"]; ?></td>
+            <td><?= $mhs["email"] ;?></td>
+            <td><?= $mhs["jurusan"]; ?></td>
+            <td><img src="img/<?= $mhs["gambar"]; ?>" width="50" alt=""></td>
         </tr>
     <?php $i++; ?>
     <?php endforeach; ?>
