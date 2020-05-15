@@ -31,11 +31,11 @@ if (isset($_POST["cari"]) ){
 
 
     
-    <h1> Daftar Mahasiswa</h1>
+    <h1>Students List</h1>
 
     <br>
 
-    <a href="tambah.php">Tambah Data Mahasiswa</a>
+    <a href="tambah.php">Input Data Students</a>
     
     <br>
     <br>
